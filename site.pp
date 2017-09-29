@@ -5,7 +5,7 @@
     }
 
     node 'webtest001' {
-      class { 'apache': }             # use apache module
+      class { 'httpd': }             # use apache module
       apache::vhost { 'example.com':  # define vhost resource
         port    => '80',
         docroot => '/var/www/html'
