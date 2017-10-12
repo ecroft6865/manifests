@@ -1,7 +1,0 @@
-
-
-  service { 'firewalld':
-    enable => false,
-  }
-
-}

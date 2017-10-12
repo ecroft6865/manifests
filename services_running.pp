@@ -1,5 +1,0 @@
-  service { 'httpd':
-    ensure => 'running',
-  }
-
-
